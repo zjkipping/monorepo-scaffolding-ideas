@@ -1,0 +1,51 @@
+# File Structure Ideas
+
+```
+apps
+  frontend
+    angular
+      example
+    react
+    svelte
+  backend
+    nest
+    express
+libs
+  frontend
+    angular
+      common
+        window
+        theming
+        internationalization
+        environment
+        http
+        firebase
+        socket
+        graphql
+      component-library
+          general
+          containers
+          forms
+      domains
+        example
+          data-access
+          ui
+      features
+    react
+    svelte
+    common
+      design
+        base
+        component-library
+          general
+          containers
+          forms
+    util
+      cypress
+  backend
+    nest
+    express
+  util
+    jest
+
+```
